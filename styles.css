@@ -58,7 +58,6 @@ header {
 
   .Hero__text-container h2 {
     padding-top: 64px;
-    font-size: 64px;
     margin-top: 0px;
     margin-bottom: 20px;
   }
@@ -543,6 +542,9 @@ input[type="file"] {
   }
 }
 @media (min-width: 891px) {
+  .Hero__text-container h2 {
+    font-size: 64px;
+  }
   .Infrastructure__wrapper {
     display: flex;
   }
@@ -559,6 +561,13 @@ input[type="file"] {
   #foto__link,
   #queshion {
     display: none;
+  }
+  .Hero__text-container h2 {
+    font-size: 32px;
+  }
+  .Form h3 {
+    font-size: 15px;
+    line-height: normal;
   }
 
   .Infrastructure__wrapper {
